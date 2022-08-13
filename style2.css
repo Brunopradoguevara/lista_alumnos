@@ -1,0 +1,95 @@
+
+nav{
+    background-color: #0461B2;
+    color: #fff;
+    width: 100%;
+}
+ul{
+    padding: 10px;
+    display: block;
+    text-align: end;
+    margin-right: 180px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;  
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo{
+    float: left;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+.contenedor{
+    margin: auto;
+    text-align: center;
+    border: gray solid 1px;
+    width: 1000px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.lista-datos{
+    display: flex;
+    justify-content: space-around;
+    margin: 16px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.tablaDeAlumnos{
+    margin: 16px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+thead{
+    width: 1000px;
+   
+}
+th{
+    width: 132px;
+    padding-bottom: 5px;
+    border-bottom: 1px black solid;
+}
+td{
+    width: 132px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px black solid;
+}
+
+.btn-eliminar{
+    border-radius: 15px;
+    border: 0px;
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #0461B2;
+}
+.btn-eliminar:hover{
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px){
+  body{
+    font-size: 10px;
+  }
+    ul{
+    margin-right:10px
+  }
+  .logo{
+    margin-left: 10px;
+  }
+  .contenedor{
+    width: 350px;
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Agregar grupo</title>
+</head>
+<body>
+    <nav>
+        <ul class="logo">
+            <li>Sistema escolar</li>
+        </ul>
+        <ul class="navegar">
+            <li><a href="lista.html" class="otroHtml">Grupo</a></li>
+            <li><a href="agregar.html">Agregar</a></li>
+        </ul>
+    </nav>
+    <section class="contenedor" data-section="agregar">
+       <h1 class="titulo2">Nuevo grupo</h1>
+       <form id="forma">
+          <div class="izq">
+             <label for="id" >Id:</label> <br>
+             <input type="number" class="formulario" id="id" min="1"> <br>
+             <label for="size_group">Size group:</label> <br>
+             <input type="text" id="size_group" > <br>
+             
+             
+
+          </div>
+          <div class="derecha">
+            <label for="nomber_group">Nomber group:</label> <br>
+             <input type="text" id="nomber_group" > <br>
+             <label for="fk" >Grado:</label> <br>
+             <input type="number" class="formulario" id="fk" min="1"> <br>
+          </div>
+       </form>
+       <br>
+       <button type="submit" onclick="guardarInfo()">Agregar</button>
+    </section>
+    <br>
+   <!--  <table class="tablaDeAlumnos">
+        <thead>
+          <th>Matricula</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Edad</th>
+          <th>Grado</th>
+          <th>Grupo</th>
+          <th>Acciones</th>
+        </thead>
+     </table> -->
+    <script src="../grupo/app2.js"></script>
+</body>
+</html>
